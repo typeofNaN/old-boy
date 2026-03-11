@@ -9,6 +9,7 @@ export default defineConfig({
   description: 'A VitePress Site',
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: `${BASE_URL}favicon.ico`, type: 'image/x-icon' }]],
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
@@ -22,10 +23,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '大雨',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '一场大雨', link: '/life/1' },
+          { text: 'Examples', link: '/markdown-examples' }
         ]
       }
     ],
