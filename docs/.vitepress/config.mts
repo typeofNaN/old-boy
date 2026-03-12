@@ -1,11 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 import { BASE_URL } from './constants'
+import { sidebar } from './sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: BASE_URL,
-  title: 'typeofNaN',
+  title: 'typeofNaN的30岁',
   description: 'A VitePress Site',
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: `${BASE_URL}favicon.ico`, type: 'image/x-icon' }]],
@@ -35,15 +36,7 @@ export default defineConfig({
       next: '下一篇'
     },
 
-    sidebar: [
-      {
-        text: '大雨',
-        items: [
-          { text: '一场大雨', link: '/life/1' },
-          { text: 'Examples', link: '/markdown-examples' }
-        ]
-      }
-    ],
+    sidebar,
 
     socialLinks: [
       {
