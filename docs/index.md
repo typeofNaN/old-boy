@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: 一场大雨
       link: /life/rain
+  image:
+    src: /logo.png
+    alt: typeofNaN
 
 features:
   - title: 当我和世界初相见
