@@ -1,1 +1,1 @@
-export const BASE_URL = '/the-age-of-thirty/'
+export const BASE_URL = '/'
