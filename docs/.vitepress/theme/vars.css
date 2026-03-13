@@ -79,7 +79,8 @@
 
 /* Safari has a very bad performance on gradient and filter */
 .browser-safari,
-.browser-firefox {
+.browser-firefox,
+.browser-wechat {
   --vp-home-hero-image-background-image: transparent;
   --vp-home-hero-image-filter: '';
 }

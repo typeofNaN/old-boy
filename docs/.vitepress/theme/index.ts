@@ -34,6 +34,11 @@ if (typeof window !== 'undefined') {
   // detect browser, add to class for conditional styling
   const ua = navigator.userAgent.toLowerCase()
   // const isMobile = /mobi|android|iphone|ipad|ipod/i.test(ua)
+  const isWechat = /micromessenger/i.test(ua)
+
+  if (isWechat) {
+    document.documentElement.classList.add('browser-wechat')
+  }
 
   // if (!isMobile) {
   if (ua.includes('chrome')) document.documentElement.classList.add('browser-chrome')
