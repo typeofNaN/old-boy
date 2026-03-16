@@ -8,11 +8,11 @@ hero:
   tagline: 转眼过去多年，世间多少离合悲欢。曾经志在四方少年，羡慕南飞的雁。
   actions:
     - theme: brand
-      text: 老男孩
-      link: /prologue/old-boy
+      text: 那些年
+      link: /those-years/prologue/old-boy
     - theme: alt
-      text: 你好，世界
-      link: /life/rain
+      text: 那些人
+      link: /those-people/friend/yong
   image:
     src: /logo.png
     alt: typeofNaN

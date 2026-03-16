@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 import { BASE_URL } from './constants'
+import { nav } from './nav'
 import { sidebar } from './sidebar'
 
 // https://vitepress.dev/reference/site-config
@@ -44,10 +45,7 @@ export default defineConfig({
       }
     },
 
-    nav: [
-      // { text: 'Home', link: '/' },
-      // { text: 'Examples', link: '/markdown-examples' }
-    ],
+    nav,
 
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',
