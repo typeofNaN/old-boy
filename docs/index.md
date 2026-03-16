@@ -18,10 +18,16 @@ hero:
     alt: typeofNaN
 
 features:
-  - title: 当我和世界初相见
+  - icon: 🎉
+    title: 当我和世界初相见
     details: 这一生，灿烂的体验，要永远与自己相关。
-  - title: 你曾是少年
+  - icon: 🤠
+    title: 你曾是少年
     details: 再见少年拉满弓，不惧岁月不飓风。
-  - title: 光阴的故事
+  - icon: 🍻
+    title: 光阴的故事
     details: 愿你走过一场青春，还留有三分纯真。
+  - icon: 🎨
+    title: 生活的意义，从来都是不被定义
+    details: 做砸的，都没后悔；没做的，一直遗憾。
 ---

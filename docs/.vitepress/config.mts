@@ -47,10 +47,19 @@ export default defineConfig({
 
     nav,
 
+    notFound: {
+      title: '页面未找到',
+      quote: '但如果你不改变方向，并且继续寻找，你可能最终会到达你所前往的地方。',
+      linkLabel: '前往首页',
+      linkText: '带我回首页'
+    },
+    langMenuLabel: '多语言',
+    returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
+    skipToContentLabel: '跳转到内容',
 
     outline: {
       label: '页面导航',
@@ -64,6 +73,11 @@ export default defineConfig({
     docFooter: {
       prev: '上一篇',
       next: '下一篇'
+    },
+
+    footer: {
+      message: '由 VitePress 和 日月星辰 强力驱动 | 吾之臂躯，行针步线',
+      copyright: '版权所有 © typeofNaN · 赣ICP备2023003304号-1'
     },
 
     sidebar,
