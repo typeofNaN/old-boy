@@ -18,7 +18,10 @@ export const sidebar: DefaultTheme.Sidebar = {
     },
     {
       text: '读书郎，上学堂',
-      items: [{ text: '学前班', link: `${SIDEBAR_GROUP.thoseYears}study/preschool` }]
+      items: [
+        { text: '学前班', link: `${SIDEBAR_GROUP.thoseYears}study/preschool` },
+        { text: '他们都叫我小学生', link: `${SIDEBAR_GROUP.thoseYears}study/school-kid` }
+      ]
     }
   ],
   [SIDEBAR_GROUP.thosePeople]: [
