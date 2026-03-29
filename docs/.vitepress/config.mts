@@ -7,7 +7,7 @@ import { sidebar } from './sidebar'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: BASE_URL,
-  title: 'typeofNaN的30岁',
+  title: '老男孩',
   description: 'A VitePress Site',
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: `${BASE_URL}favicon.ico`, type: 'image/x-icon' }]],

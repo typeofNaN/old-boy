@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: 'typeofNaN的30岁'
+  name: '老男孩'
   text: '我曾是少年'
   tagline: 转眼过去多年，世间多少离合悲欢。曾经志在四方少年，羡慕南飞的雁。
   actions:
