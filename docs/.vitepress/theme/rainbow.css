@@ -666,3 +666,40 @@
   color: var(--vp-c-brand-1);
   font-weight: 600;
 }
+
+@keyframes sidebar-rainbow {
+  from {
+    background-position: 0% 50%;
+  }
+
+  to {
+    background-position: 200% 50%;
+  }
+}
+
+/* Keep the active sidebar entry visibly animated instead of inheriting a
+   single snapshot of the global brand colour. */
+.VPSidebarItem.is-active > .item > .link > .text {
+  color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    #00a98e,
+    #0096fd,
+    #b574dd,
+    #f25c71,
+    #f6a800,
+    #51a13c,
+    #00a98e
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: sidebar-rainbow 4s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .VPSidebarItem.is-active > .item > .link > .text {
+    animation: none;
+  }
+}
