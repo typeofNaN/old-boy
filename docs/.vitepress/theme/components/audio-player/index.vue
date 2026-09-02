@@ -46,10 +46,10 @@
 import { ref, computed, onMounted } from 'vue'
 
 const props = defineProps({
-  src: String,
-  title: String,
-  cover: String,
-  playlist: Array
+  src: { type: String, default: '' },
+  title: { type: String, default: '' },
+  cover: { type: String, default: '' },
+  playlist: { type: Array, default: null }
 })
 
 const audio = ref(null)

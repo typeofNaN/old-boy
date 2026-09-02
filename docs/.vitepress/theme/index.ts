@@ -1,12 +1,14 @@
 import { h, watch } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
-import ImageViewer from '@miletorix/vitepress-image-viewer'
-import '@miletorix/vitepress-image-viewer/style.css'
+// import ImageViewer from '@miletorix/vitepress-image-viewer'
+// import '@miletorix/vitepress-image-viewer/style.css'
 
 import { BASE_URL } from '../constants'
 import Giscus from './components/giscus/index.vue'
 import AudioPlayer from './components/audio-player/index.vue'
+import ImagePreview from './components/image-preview/index.vue'
+import VideoPlayer from './components/video-player/index.vue'
 import './rainbow.css'
 import './vars.css'
 // import './overrides.css'
@@ -22,7 +24,9 @@ export default {
   },
   enhanceApp({ app, router }) {
     app.component('AudioPlayer', AudioPlayer)
-    ImageViewer(app)
+    app.component('ImagePreview', ImagePreview)
+    app.component('VideoPlayer', VideoPlayer)
+    // ImageViewer(app)
     if (typeof window === 'undefined') return
 
     watch(
