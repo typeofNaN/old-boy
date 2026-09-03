@@ -695,7 +695,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: sidebar-rainbow 4s linear infinite;
+  animation: sidebar-rainbow 12s linear infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {

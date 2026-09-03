@@ -123,3 +123,12 @@
 爱你，老婆！ 😘
 
 ❤️
+
+## 大主角
+
+最后附上一张本人小时候的萌照。
+
+<ImagePreview
+  src="https://typeofnan.oss-cn-guangzhou.aliyuncs.com/30/image/childhood.jpeg"
+  alt="小男孩"
+/>
